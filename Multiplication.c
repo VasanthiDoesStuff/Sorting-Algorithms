@@ -17,7 +17,7 @@ int main()
 
 int multiply(int m, int n)
 {
-    printf("|%2d * %2d = %3d  |\n", m, n, m*n);
+    printf("| %2d * %2d = %3d |\n", m, n, m*n);
     return 0;
 }
 
