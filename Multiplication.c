@@ -23,31 +23,31 @@ int multiply(int m, int n)
     return 0;
 }
 
-\\ size of the top side is taken for alignment
+// size of the top side is taken for alignment
 int n = sizeof("+-----------------+");
 
-\\ function to print the box
+//function to print the box
 int box(int var1, int rows, int columns)
 {
-    \\ iterate each row
+    //iterate each row
     for (int i = 0; i <= rows; i++)
     {
-        \\ setting a flag variable to break out of loop 
+        //setting a flag variable to break out of loop 
         int printed_result = 0;
-        \\   iterate each coloumn
+        //  iterate each coloumn
         for (int j = 0; j < columns; j++)
         {
-            \\ check for corners
+            //check for corners
             if ((i==0 && j==0) || (i==0 && j==columns-1) || (i==rows && j==0) || (i==rows && j==columns-1))
             {
                 printf("+");
             }
-            \\print the - in the top and bottom
+            //print the - in the top and bottom
             else if (i==0 || i==rows)
             {
                 printf("-");
             }
-            \\ print the table inside
+            //print the table inside
             else
             {
                 if (i>0 && i<rows && !printed_result)
