@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1689568907 source:c:\mingw\programming in c\sortingalgorithms\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+

@@ -1,0 +1,11 @@
+set title "Sorting Algorithms Performance"
+set xlabel "Array Size"
+set ylabel "Time (ms)"
+set grid
+
+
+plot "plot_data.txt" using 1:2 with lines title "Bubble Sort", \
+     "plot_data.txt" using 1:3 with lines title "Selection Sort", \
+     "plot_data.txt" using 1:4 with lines title "Insertion Sort",\
+     "plot_data.txt" using 1:5 with lines title "Merge Sort",
+pause -1 "Press any key to exit"
