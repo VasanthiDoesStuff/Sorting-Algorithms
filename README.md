@@ -5,5 +5,5 @@ The Algorithms used here are
 - Insertion Sort
 - Selection Sort
 - Merge Sort
-  # Dependencies
+## Dependencies
   - Uses Gnuplot: For plotting the graph
